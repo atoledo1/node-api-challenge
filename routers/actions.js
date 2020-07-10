@@ -24,7 +24,7 @@ actionsRouter.put("/", validateProjectId, validateActionId, (req, res) => {
   dbActions
     .update(req.body.id, req.body)
     .then((count) =>
-      res.status(200).json({ Ammount_of_updated_actions: count })
+      res.status(200).json({ amount_of_updated_actions: count })
     );
 });
 

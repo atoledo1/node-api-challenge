@@ -36,7 +36,7 @@ projectRouter.post("/", validateProject, (req, res) => {
 
 projectRouter.put("/:id", validateProjectId, (req, res) => {
   db.update(req.params.id, req.body)
-    .then((count) => res.status(201).json({ Updated_ammount: count }))
+    .then((count) => res.status(201).json({ Updated_amount: count }))
     .catch((err) => console.log(err.message));
 });
 
