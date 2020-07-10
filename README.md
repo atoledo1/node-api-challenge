@@ -40,13 +40,22 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+Two parts of Express that we learned this week is how to do custom middleware and routing.
+
 - [ ] Describe Middleware?
 
+It's an array of functions that get implemented in the order that you find them in the code and it serves to add extra functionality to express. 
+
 - [ ] Describe a Resource?
+It's what the CRUD methods are acting on, the data. 
 
 - [ ] What can the API return to help clients know if a request was successful?
 
+A status code. These can also help clients know if the request was unsucessful. 
+
 - [ ] How can we partition our application into sub-applications?
+
+We can do this by using routers. 
 
 ## Minimum Viable Product
 
